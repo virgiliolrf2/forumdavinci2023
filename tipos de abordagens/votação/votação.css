@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    background: linear-gradient(#8ed1fc, #0693e3);
+    text-align: center;
+    padding: 1%;
+    font-size: 700%;
+    color: rgb(0, 0, 0); 
+    margin-bottom: 2vh; 
+  }
+  
+
+  #mensagem {
+    display: none;
+    font-size: 300%;
+    font-family: 'REM', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 0%;
+      background-color: rgba(255, 254, 254, 0.8);
+    color: black;
+    padding: 0.5%;
+    padding-bottom: 15%;
+    border-radius: 10px;
+  }
+  img {
+    height: 40vh;
+    width: 60vh;
+    margin-bottom: 2vh; /* Adicionado um espaçamento inferior */
+    margin-top: 5%;
+    display: block;
+  }
+  
+  .botao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    margin-top: 2vh;
+  }
+  
+  .botao1,
+  .botao2,
+  .botao3 {
+    color: white;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 200%;
+    margin-right: 2%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+  }
+  

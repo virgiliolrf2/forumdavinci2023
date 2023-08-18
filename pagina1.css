@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    height: 10vh;
+}
+.comite1, .comite2, .comite3, .comite4, .comite5 {
+    background-color: red;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 0.55%;
+    border-radius: 10px;
+    margin-top: 20%;
+    font-size: 140%;
+    font-weight: bold;
+
+}
+
+.comite1 *, .comite2 *, .comite3 *, .comite4 *, .comite5 * {
+    color: whitesmoke; 
+}
+
+.titulo {
+    background: linear-gradient(#8ed1fc, #0693e3); 
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    padding: 1%;
+    font-size: 600%;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    font-size: 350%; 
+    color: #555; 
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    grid-template-columns: 1fr; 
+    justify-content: flex-end;
+    border-radius: 10px;
+}

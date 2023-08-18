@@ -1,0 +1,204 @@
+.eua, .rus, .ch, .eng, .fra, .esl, .br, .ita, .iug, .jap, .cro, .ale, .mac, .bos, .turq, .gre, .otan {
+    margin-bottom: 1.5vh;
+    width: 10vh;
+    height: 6vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divisor {
+    height: 85.8vh;
+    width: 10px;
+    background-color: #333;
+    margin-left: 20%;
+    margin-top: -2.6%;
+}
+
+.container {
+    display: flex;
+}
+
+.divisor2 {
+    height: 108.1vh;
+    width: 10px;
+    background-color: #333;
+    margin-left: 13%;
+    margin-top: -2.6%;
+    display: flex;
+}
+
+.quadrado {
+    background-color: transparent;
+    border-color: #333;
+    border: 10px solid;
+    border-radius: 20px;
+    height: 50vh;
+    width: 70vh;
+    margin-top: 5%;
+    margin-left: 22%;
+}
+
+h1 {
+    background: linear-gradient(#8ed1fc, #0693e3);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 700%;
+    margin-top: 0%;
+    margin-bottom: 5vh;
+}
+
+.button {
+    margin-left: 0vh;
+    font-size: 1vh; 
+    position: relative;
+    cursor: pointer;
+    margin-left: -16.5vh;
+    margin-top: 2vh;
+
+}
+
+#startButton {
+    font-size: 100%;
+    margin-left: -13.25%;
+    position: absolute;
+    margin-top: 3.9%;
+    padding: 1%;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 34%;
+    margin-left: -9%;
+}
+
+
+@media (min-width: 2047px) {
+    #timer {
+        margin-top: 34.5%;
+        margin-left: 69.5%;
+        font-size: 300%;
+        position: absolute;
+    }
+    #startButton {
+        font-size: 100%;
+        margin-left: -12.75%;
+        position: absolute;
+        margin-top: 3.9%;
+        padding: 1%;
+        background-color: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+#timer {
+    margin-top: 34.5%;
+    margin-left: 1000%;
+    font-size: 200%;
+    position: absolute;
+}
+
+@media (min-width: 1220px) {
+    #timer {
+        margin-top: 34.5%;
+        margin-left: 72.5%;
+        font-size: 200%;
+        position: absolute;
+    }
+    #startButton {
+        font-size: 100%;
+        margin-left: -14%;
+        position: absolute;
+        margin-top: 3.9%;
+        padding: 1%;
+        background-color: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 1920px) {
+    #timer {
+        margin-top: 34.5%;
+        margin-left: 70.75%;
+        font-size: 300%;
+        position: absolute;
+    }
+    #startButton {
+        font-size: 100%;
+        margin-left: -14%;
+        position: absolute;
+        margin-top: 3.9%;
+        padding: 1%;
+        background-color: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+img {
+    height: 5vh;
+    height: 5vh;
+}
+
+.draggin {
+    opacity: 0.5;
+}
+
+#nome {
+    font-size: 300%;
+    margin-top: -75%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500%;
+}
+
+.bandeira {
+    height: 30vh;
+    width: 50vh;
+    margin-top: 12vh;
+    margin-left: 13.75%;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.botoes {
+    margin-left: -21.6vh;
+    margin-top: 1vh;
+}
